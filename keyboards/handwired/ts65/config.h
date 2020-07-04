@@ -12,8 +12,8 @@
 #define DESCRIPTION     Keyboard
 
 /* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 16
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 9
 
 /* key matrix pins */
 #define MATRIX_ROW_PINS { D4, C6, D7, E6, B4 }
@@ -43,5 +43,5 @@
 
 //#define SPLIT_HAND_PIN B7
 #define USE_I2C
-#define SPLIT_USB_DETECT
+//#define SPLIT_USB_DETECT
 #define EE_HANDS
